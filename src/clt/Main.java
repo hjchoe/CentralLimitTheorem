@@ -63,10 +63,9 @@ class Panel
 		        {
 		            g2d.setColor(Color.BLACK);
 		            g2d.fill(p);
-		            
-		            g2d.setColor(Color.RED);
-		            g2d.draw(new Line2D.Float(0f, 400f, 500f, 400f));
 		        }
+	            g2d.setColor(Color.RED);
+	            g2d.draw(new Line2D.Float(0f, 400f, 500f, 400f));
 			}
 		};
 		
